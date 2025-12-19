@@ -1,0 +1,20 @@
+--- EN YÜKSEK RİSKLİ 10 İL (Model V2 Sonucuna Göre) ---
+
+Risk = %50 Toplam Tehlike + %50 Kırılganlık (Eski Bina)
+Toplam Tehlike = %70 Puan_Tehlike_FAY + %30 Puan_Tehlike_TARIHSEL
+
+Puan_Tehlike_FAY: İl alanının faylara yakınlık oranı (0-1 arası)
+Puan_Tehlike_TARIHSEL: İl sınırları içindeki M4.0+ deprem sayısı (0-1 arası)
+Puan_Kirilganlik: 2000 öncesi bina oranı (0-1 arası)
+
+         name  RISK_SKORU_10  Puan_Tehlike_TOPLAM  Puan_Kirilganlik  Puan_Tehlike_FAY  Puan_Tehlike_TARIHSEL
+49    Kütahya       9.052061             0.900840          0.888507          0.880233               0.948925
+55     Manisa       8.093356             0.828824          0.747478          0.965140               0.510753
+32  Balikesir       7.851069             0.596785          0.925675          0.686652               0.387097
+33      Izmir       7.816547             0.700081          0.814707          0.833065               0.389785
+34      Aydin       7.668142             0.674906          0.806903          0.888115               0.177419
+56    Denizli       7.378632             0.663153          0.754321          0.778006               0.395161
+45      Tokat       7.373032             0.613807          0.802423          0.841152               0.083333
+48     Amasya       7.219562             0.632100          0.750025          0.856917               0.107527
+28    Sakarya       7.186767             0.682452          0.692385          0.828618               0.341398
+30     Yalova       7.185996             0.712097          0.662569          1.000000               0.040323
